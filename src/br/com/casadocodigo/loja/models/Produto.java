@@ -13,7 +13,7 @@ public class Produto {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private int id;
+	private Integer id;
 	private String titulo;
 	private String descricao;
 	private int paginas;
